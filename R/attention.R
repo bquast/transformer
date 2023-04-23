@@ -15,7 +15,7 @@ attention <- function(Q, K, V, mask = NULL) {
     scores <- scores * mask + (1 - mask) * (-1e10)
   }
 
-  attention_weights <- t(apply(scores, 1, softmax))  # Transpose the result after applying softmax
+  attention_weights <- t(apply(scores, 1, SoftMax))  # Transpose the result after applying softmax
 
   if (any(is.infinite(attention_weights))) {
     attention_weights[is.infinite(attention_weights)] <- 0
