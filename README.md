@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/bquast/transformer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bquast/transformer/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/bquast/transformer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bquast/transformer?branch=main)
 <!-- badges: end -->
 
 Implementation of Transformer Deep Neural Network with Vignettes.
