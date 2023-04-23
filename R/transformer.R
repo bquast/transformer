@@ -3,7 +3,7 @@
 #' @param x inputs
 #' @param d_model dimensions of the model
 #' @param num_heads number of heads
-#' @param dff dff
+#' @param dff dimensions of feed-forward model
 #' @param mask optional mask
 #' @return output of the transformer layer
 #' @export

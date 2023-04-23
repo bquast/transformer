@@ -9,7 +9,7 @@ feed_forward(x, dff, d_model)
 \arguments{
 \item{x}{inputs}
 
-\item{dff}{dff}
+\item{dff}{dimensions of feed-forward model}
 
 \item{d_model}{dimensions of the model}
 }

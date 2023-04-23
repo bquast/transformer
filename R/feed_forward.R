@@ -1,7 +1,7 @@
 #' @name feed_forward
 #' @title Feed Forward Layer
 #' @param x inputs
-#' @param dff dff
+#' @param dff dimensions of feed-forward model
 #' @param d_model dimensions of the model
 #' @return output of the feed-forward layer
 #' @importFrom stats rnorm

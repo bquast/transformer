@@ -13,7 +13,7 @@ transformer(x, d_model, num_heads, dff, mask = NULL)
 
 \item{num_heads}{number of heads}
 
-\item{dff}{dff}
+\item{dff}{dimensions of feed-forward model}
 
 \item{mask}{optional mask}
 }
