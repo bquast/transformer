@@ -4,6 +4,7 @@
 #' @param dff dff
 #' @param d_model dimensions of the model
 #' @return output of the feed-forward layer
+#' @importFrom stats rnorm
 #' @export
 
 feed_forward <- function(x, dff, d_model) {
