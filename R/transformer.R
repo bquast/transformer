@@ -7,6 +7,14 @@
 #' @param mask optional mask
 #' @return output of the transformer layer
 #' @export
+#' @examples
+#' x <- matrix(rnorm(50 * 512), 50, 512)
+#' d_model <- 512
+#' num_heads <- 8
+#' dff <- 2048
+#'
+#' output <- transformer(x, d_model, num_heads, dff)
+#'
 
 transformer <- function(x, d_model, num_heads, dff, mask = NULL) {
   attn_output <- multi_head(x, x, x, d_model, num_heads, mask)

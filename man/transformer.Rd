@@ -23,3 +23,12 @@ output of the transformer layer
 \description{
 Transformer
 }
+\examples{
+x <- matrix(rnorm(50 * 512), 50, 512)
+d_model <- 512
+num_heads <- 8
+dff <- 2048
+
+output <- transformer(x, d_model, num_heads, dff)
+
+}
