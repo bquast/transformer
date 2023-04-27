@@ -14,8 +14,6 @@
 #' dff <- 2048
 #'
 #' output <- transformer(x, d_model, num_heads, dff)
-#'
-
 transformer <- function(x, d_model, num_heads, dff, mask = NULL) {
   attn_output <- multi_head(x, x, x, d_model, num_heads, mask)
   x1 <- layer_norm(x + attn_output)

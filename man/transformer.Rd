@@ -30,5 +30,4 @@ num_heads <- 8
 dff <- 2048
 
 output <- transformer(x, d_model, num_heads, dff)
-
 }
