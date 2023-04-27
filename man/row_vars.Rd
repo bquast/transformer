@@ -15,3 +15,6 @@ vector with the variance of each of row of the input matrix
 \description{
 Row Variances
 }
+\examples{
+row_vars(t(matrix(1:5)))
+}

@@ -15,3 +15,6 @@ vector with the mean of each of row of the input matrix
 \description{
 Row Means
 }
+\examples{
+row_means(t(matrix(1:5)))
+}

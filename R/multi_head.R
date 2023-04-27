@@ -7,7 +7,6 @@
 #' @param num_heads number of heads
 #' @param mask optional mask
 #' @return multi-headed attention outputs
-#' @export
 
 multi_head <- function(Q, K, V, d_model, num_heads, mask = NULL) {
   depth <- d_model / num_heads

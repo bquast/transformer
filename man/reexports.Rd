@@ -6,6 +6,9 @@
 \alias{attention}
 \alias{SoftMax}
 \title{Objects exported from other packages}
+\examples{
+Softmax(-5:5)
+}
 \keyword{internal}
 \description{
 These objects are imported from other packages. Follow the links

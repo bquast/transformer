@@ -3,7 +3,6 @@
 #' @param x inputs
 #' @param epsilon scale
 #' @return outputs of layer normalization
-#' @export
 
 layer_norm <- function(x, epsilon = 1e-6) {
   mu <- row_means(x)

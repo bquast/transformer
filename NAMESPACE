@@ -2,9 +2,6 @@
 
 export(SoftMax)
 export(attention)
-export(feed_forward)
-export(layer_norm)
-export(multi_head)
 export(row_means)
 export(row_vars)
 export(transformer)
