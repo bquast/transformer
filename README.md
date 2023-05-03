@@ -1,6 +1,7 @@
 # transformer
 
 <!-- badges: start -->
+[![CRAN Version](https://www.r-pkg.org/badges/version/transformer)](https://cran.r-project.org/package=transformer)
 [![R-CMD-check](https://github.com/bquast/transformer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bquast/transformer/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/bquast/transformer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bquast/transformer?branch=main)
 <!-- badges: end -->
